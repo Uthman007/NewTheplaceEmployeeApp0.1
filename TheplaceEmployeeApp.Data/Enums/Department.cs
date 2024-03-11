@@ -1,4 +1,7 @@
-﻿namespace TheplaceEmployeeApp.Data.Enums
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace TheplaceEmployeeApp.Data.Enums
+
 {
     public enum Department
     {
@@ -10,6 +13,6 @@
         Marketing,
         Operation,
         Project,
-        Maintenace
+        Maintenance
     }
 }

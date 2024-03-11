@@ -37,10 +37,10 @@ namespace TheplaceEmployeeApp.Data.Entities
         [Required, DataType(DataType.PhoneNumber)]
         public long PhoneNumber { get; set; }
 
-        [Required]
+        [Required, DataType(DataType.Date)]
         public DateTime DateEmployed { get; set; }
 
-        [Required]
+        [Required, DataType(DataType.Date)]
         public DateTime DateOfBirth { get; set; }
 
         [Required]

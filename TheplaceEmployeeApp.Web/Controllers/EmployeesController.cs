@@ -97,8 +97,8 @@ namespace TheplaceEmployeeApp.Web.Controllers
                     StateName = postedEmployee.StateName,
                     Age = postedEmployee.Age,
                     PhoneNumber = postedEmployee.PhoneNumber,
-                    DateEmployed = postedEmployee.DateEmployed,
-                    DateOfBirth = postedEmployee.DateOfBirth
+                    DateEmployed = postedEmployee.DateEmployed.Date,
+                    DateOfBirth = postedEmployee.DateOfBirth.Date
                 };
                 _employeeRepository.CreateEmployee(newEmployee);
 
